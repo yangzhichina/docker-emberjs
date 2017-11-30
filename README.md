@@ -1,5 +1,6 @@
 # docker-emberjs
 This is a `ember.js` `development` environment, not for `production` (it will be implemented later).
+In this image, I use my own [nvm:6.12](https://github.com/yangzhichina/docker-nvm) for basic.
 
 ## How to use
 1. `git clone` (No more to explain)
