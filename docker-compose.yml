@@ -1,0 +1,13 @@
+version: '3'
+services:
+  ember:
+    image: ember-devel:${EMBER_VER}
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - API_HOST=http://localhost/
+        - PROJ=project
+    volumes:
+      - .:/home/node/project
+    network_mode: host
